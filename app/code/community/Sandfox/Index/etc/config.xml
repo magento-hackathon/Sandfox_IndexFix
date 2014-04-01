@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sandfox_Index>
+            <version>0.1.0</version>
+        </Sandfox_Index>
+    </modules>
+
+    <global>
+        <models>
+            <sandfox_index>
+                <class>Sandfox_Index_Model</class>
+            </sandfox_index>
+            <enterprise_catalog>
+                <rewrite>
+                    <index_action_category_flat_refresh_changelog>Sandfox_Index_Model_Catalog_Index_Action_Category_Flat_Refresh_Changelog</index_action_category_flat_refresh_changelog>
+                    <index_action_product_flat_refresh_changelog>Sandfox_Index_Model_Catalog_Index_Action_Product_Flat_Refresh_Changelog</index_action_product_flat_refresh_changelog>
+                    <index_action_product_price_refresh_changelog>Sandfox_Index_Model_Catalog_Index_Action_Product_Price_Refresh_Changelog</index_action_product_price_refresh_changelog>
+                </rewrite>
+            </enterprise_catalog>
+            <enterprise_cataloginventory>
+                <rewrite>
+                    <index_action_refresh_changelog>Sandfox_Index_Model_CatalogInventory_Index_Action_Refresh_Changelog</index_action_refresh_changelog>
+                </rewrite>
+            </enterprise_cataloginventory>
+        </models>
+        <helpers>
+            <sandfox_index>
+                <class>Sandfox_Index_Helper</class>
+            </sandfox_index>
+        </helpers>
+    </global>
+</config>

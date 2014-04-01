@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sandfox_Index>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>Enterprise_Index</depends>
+        </Sandfox_Index>
+    </modules>
+</config>
