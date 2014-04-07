@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Sandfox_Index>
+        <Sandfox_IndexFix>
             <active>true</active>
             <codePool>community</codePool>
             <depends>Enterprise_Index</depends>
-        </Sandfox_Index>
+        </Sandfox_IndexFix>
     </modules>
 </config>

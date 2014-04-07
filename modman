@@ -1,2 +1,2 @@
-app/etc/modules/Sandfox_Index.xml   app/etc/modules/Sandfox_Index.xml
-app/code/community/Sandfox/Index    app/code/community/Sandfox/Index
+app/etc/modules/Sandfox_IndexFix.xml    app/etc/modules/Sandfox_IndexFix.xml
+app/code/community/Sandfox/IndexFix     app/code/community/Sandfox/IndexFix

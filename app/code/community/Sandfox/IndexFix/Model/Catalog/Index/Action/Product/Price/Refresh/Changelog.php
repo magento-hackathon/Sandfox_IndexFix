@@ -1,6 +1,6 @@
 <?php
 
-class Sandfox_Index_Model_CatalogInventory_Index_Action_Refresh_Changelog extends Enterprise_CatalogInventory_Model_Index_Action_Refresh_Changelog
+class Sandfox_IndexFix_Model_Catalog_Index_Action_Product_Price_Refresh_Changelog extends Enterprise_Catalog_Model_Index_Action_Product_Price_Refresh_Changelog
 {
     protected function _selectChangedIds($maxVersion = null)
     {
